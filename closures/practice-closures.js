@@ -123,7 +123,7 @@
       },
       deleteFromProducts: function(brand){
         let i = products.indexOf(brand)
-        delete products.splice(i)
+        products.splice(i,1)
       }
     }
   }
